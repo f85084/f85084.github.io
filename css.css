@@ -788,6 +788,9 @@ h5 {
 h6 {
   font-size: 11.9px;
 }
+h7{
+	margin: 0px 200px auto;	
+}
 
 h1 small {
   font-size: 24.5px;
