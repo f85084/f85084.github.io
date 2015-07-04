@@ -798,6 +798,8 @@ h6 {
 position: absolute;     /*絕對位置*/
 top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
 left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/	
+margin-top: -100px;     /*高度的一半*/
+margin-left: -200px;    /*寬度的一半*/
 }
 
 h1 small {
