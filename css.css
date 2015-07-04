@@ -795,7 +795,9 @@ h6 {
 	margin: 0px 100px auto;	
 }
 .h8{
-	margin: 0px auto;	
+position: absolute;     /*絕對位置*/
+top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
+left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/	
 }
 
 h1 small {
