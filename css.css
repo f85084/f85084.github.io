@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Bootstrap v2.3.2
  *
  * Copyright 2012 Twitter, Inc
@@ -795,6 +795,13 @@ h6 {
 	margin: 0px 100px auto;	
 }
 .h8{             /*置中*/
+position: absolute;     /*絕對位置*/
+top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
+left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/	
+margin-top: 15px;     /*高度的一半*/
+margin-left: -50px;    /*寬度的一半*/
+}
+.h9{             /*置中*/
 position: absolute;     /*絕對位置*/
 top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
 left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/	
